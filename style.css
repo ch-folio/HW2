@@ -1,0 +1,30 @@
+body {
+    margin: 50px;
+    font-family: Garamond, sans-serif;
+    font-size: 150%;
+}
+
+button{
+  background-color: #72b4e0;
+  color: white;
+  border-radius: 20px;
+  padding: 15px 32px;
+  font-size: 20px;
+}
+
+#grad1 {
+    height: 200px;
+    background-color: rgb(223, 89, 89); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(228, 181, 214) , rgb(240, 240, 150)); /* Standard syntax (must be last) */
+  }
+
+#grad2 {
+    height: 450px;
+    background-color: rgb(150, 240, 187); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(128, 178, 219), rgb(150, 184, 157)); /* Standard syntax (must be last) */
+  }
+      
+#ChangedWords {
+    font-family:  Garamond;
+    font-size: 300%;
+}
