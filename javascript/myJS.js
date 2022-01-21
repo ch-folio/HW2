@@ -1,12 +1,9 @@
-// runs immediately when the page is loaded
-
- 
 let word = [];
 
 
 console.log(word);
 
-// runs after the DOM is completely loaded
+
 document.addEventListener("DOMContentLoaded", function (event) {
    
     document.getElementById("start").style.visibility = "hidden";
@@ -31,9 +28,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 });
 
-
-
-// runs only when called)
 function swap() {
 
     let swapped = word.map(function(oneWord) {
